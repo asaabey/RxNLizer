@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxNLizer", "RxNLizer\RxNLizer.csproj", "{31CD3C5D-64F9-4B89-9701-D39743F48182}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxNLizer.Demo", "RxNLizer.Demo\RxNLizer.Demo.csproj", "{12834607-F3A1-459C-9AA2-5D99107C702A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31CD3C5D-64F9-4B89-9701-D39743F48182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31CD3C5D-64F9-4B89-9701-D39743F48182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31CD3C5D-64F9-4B89-9701-D39743F48182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31CD3C5D-64F9-4B89-9701-D39743F48182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12834607-F3A1-459C-9AA2-5D99107C702A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12834607-F3A1-459C-9AA2-5D99107C702A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12834607-F3A1-459C-9AA2-5D99107C702A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12834607-F3A1-459C-9AA2-5D99107C702A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CF2886B-00EF-4E08-ACB5-1C809052C632}
+	EndGlobalSection
+EndGlobal
