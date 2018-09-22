@@ -49,59 +49,59 @@ The candidate RxCui is then used to query the RxClass REST Api to obtain the rel
 
 The rxNLizer.GetRxClasses(rxText) method returns this aforementioned Json Object
 
-  {
-  "userInput": {
-    "relaSource": "ATC",
-    "relas": "ALL",
-    "rxcui": "404013"
-  },
-  "rxclassDrugInfoList": {
-    "rxclassDrugInfo": [
       {
-        "minConcept": {
-          "rxcui": "17767",
-          "name": "Amlodipine",
-          "tty": "IN"
-        },
-        "rxclassMinConceptItem": {
-          "classId": "C08CA",
-          "className": "Dihydropyridine derivatives",
-          "classType": "ATC1-4"
-        },
-        "rela": "",
-        "relaSource": "ATC"
+      "userInput": {
+        "relaSource": "ATC",
+        "relas": "ALL",
+        "rxcui": "404013"
       },
-      {
-        "minConcept": {
-          "rxcui": "404773",
-          "name": "Amlodipine / atorvastatin",
-          "tty": "MIN"
-        },
-        "rxclassMinConceptItem": {
-          "classId": "C10BX",
-          "className": "HMG CoA reductase inhibitors, other combinations",
-          "classType": "ATC1-4"
-        },
-        "rela": "",
-        "relaSource": "ATC"
-      },
-      {
-        "minConcept": {
-          "rxcui": "83367",
-          "name": "atorvastatin",
-          "tty": "IN"
-        },
-        "rxclassMinConceptItem": {
-          "classId": "C10AA",
-          "className": "HMG CoA reductase inhibitors",
-          "classType": "ATC1-4"
-        },
-        "rela": "",
-        "relaSource": "ATC"
+      "rxclassDrugInfoList": {
+        "rxclassDrugInfo": [
+          {
+            "minConcept": {
+              "rxcui": "17767",
+              "name": "Amlodipine",
+              "tty": "IN"
+            },
+            "rxclassMinConceptItem": {
+              "classId": "C08CA",
+              "className": "Dihydropyridine derivatives",
+              "classType": "ATC1-4"
+            },
+            "rela": "",
+            "relaSource": "ATC"
+          },
+          {
+            "minConcept": {
+              "rxcui": "404773",
+              "name": "Amlodipine / atorvastatin",
+              "tty": "MIN"
+            },
+            "rxclassMinConceptItem": {
+              "classId": "C10BX",
+              "className": "HMG CoA reductase inhibitors, other combinations",
+              "classType": "ATC1-4"
+            },
+            "rela": "",
+            "relaSource": "ATC"
+          },
+          {
+            "minConcept": {
+              "rxcui": "83367",
+              "name": "atorvastatin",
+              "tty": "IN"
+            },
+            "rxclassMinConceptItem": {
+              "classId": "C10AA",
+              "className": "HMG CoA reductase inhibitors",
+              "classType": "ATC1-4"
+            },
+            "rela": "",
+            "relaSource": "ATC"
+          }
+        ]
       }
-    ]
-  }
-}
+    }
 
 
 
