@@ -1,7 +1,7 @@
 # RxNLizer
 Normalize and classify using RxNorm and RxClass
 
-Example walkthrough
+## Example walkthrough
 
 Prerequisite
 RxNorm SQL database installed locally. Source can be downloaded from 
