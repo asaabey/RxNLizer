@@ -1,5 +1,5 @@
 # RxNLizer
-Normalize and classify using RxNorm and RxClass
+Normalize and classify a medication string using RxNorm and RxClass
 
 ## Example walkthrough
 
