@@ -15,7 +15,7 @@ https://rxnav.nlm.nih.gov/RxClassAPIREST.html
 What are the RxClass codes for medication string (Rx_text) containing, "Amlodipine 10 mg, Atorvastatin 80 mg coated tablet; 10 mg, 80 mg 10 mg/80 mg" ? 
 
 ### Determine preferred Token
-RxNLizer splits the the medication to tokens, and selects the preferred the Token to match against STR column of the RxNorm Rxnconso table. The preferred token is usually the first word, and is used in the predicate to return a set of matched RxNorm records with the RxCui and STR fields. Each STR field is tokenized
+RxNLizer splits the the medication to tokens, and selects the preferred the token to match against the STR column of the RxNorm Rxnconso table. The preferred token is usually the first word, and is used in the predicate to return a set of matched RxNorm records with the RxCui and STR fields. Each STR field is tokenized
 
 
 ### Select matches from RxNorm
