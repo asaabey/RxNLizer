@@ -4,6 +4,7 @@ Normalize and classify using RxNorm and RxClass
 ## Example walkthrough
 
 Prerequisite
+
 (Public domain) : RxNorm SQL database installed locally. Source can be downloaded from 
 https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html
 
